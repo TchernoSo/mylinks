@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    }
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+img {
+    width: 150px; /* Adjust the width of the image as needed */
+    border-radius: 20%; /* Makes the image round */
+    margin-bottom: 20px; /* Adds space between the image and the heading */
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ 
+}
+
+.links a {
+    display: block;
+    padding: 10px;
+    background-color: #f0f0f0;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.links a:hover {
+    background-color: #ccc;
+}
