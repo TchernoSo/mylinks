@@ -16,7 +16,7 @@ h1 {
 }
 
 img {
-    width: 150px; /* Adjust the width of the image as needed */
+    width: 350px; /* Adjust the width of the image as needed */
     border-radius: 20%; /* Makes the image round */
     margin-bottom: 20px; /* Adds space between the image and the heading */
 }
@@ -39,4 +39,9 @@ img {
 
 .links a:hover {
     background-color: #ccc;
+}
+
+p{
+    color: rgb(210, 90, 30);
+    margin-top: 40px;
 }
