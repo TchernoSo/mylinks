@@ -1,3 +1,10 @@
+// Navbar collapse after click 
+$(document).ready(function () {
+  $('.navbar-nav>li>a').on('click', function () {
+    $('.navbar-collapse').collapse('hide');
+  });
+});
+
 // Main Image effect
 $(document).ready(function () {
   $(".navbar-toggler").click(function () {
