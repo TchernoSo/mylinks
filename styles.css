@@ -199,7 +199,15 @@ p span.typed-text {
   100%  { background-color: #ccc; }
 }
 
+/* Fade in images  */
+.fade-in-section {
+  opacity: 0;
+  transition: opacity 0.9s ease-out;
+}
 
+.fade-in-section.is-visible {
+  opacity: 1;
+}
 
 /* My Work */
 
@@ -224,7 +232,7 @@ p span.typed-text {
   text-align: center;
   opacity: 0;
   border-radius: 5px;
-  animation: lightson .5s ease 3 forwards;
+  animation: lightson .6s ease 3 forwards;
 }
 
 @keyframes lightson {
