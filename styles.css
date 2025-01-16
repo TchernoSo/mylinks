@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   color: white;
   animation: fadeInAnimation 1s ease-in forwards;
   font-family: Hedvig Letters Serif;
@@ -114,7 +114,7 @@ body {
 }
 
 .perfil-img {
-  max-width: 400px;
+  max-width: 250px;
   /* Adjust as needed for a medium size */
   width: 100%;
   height: auto;
